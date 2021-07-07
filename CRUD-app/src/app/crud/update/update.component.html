@@ -1,0 +1,61 @@
+<div class="paddn">
+  <h3>Update Product</h3>
+  <form (ngSubmit)="updatePdt()">
+    <div class="form-group">
+      <label for="name">ID</label>
+      <input
+        type="number"
+        class="form-control"
+        required
+        readonly
+        [(ngModel)]="product.id"
+        name="id"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input
+        type="text"
+        class="form-control"
+        required
+        [(ngModel)]="product.name"
+        name="name"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="name">Description</label>
+      <input
+        type="textarea"
+        class="form-control"
+        required
+        [(ngModel)]="product.description"
+        name="description"
+      />
+    </div>
+    <div class="form-group">
+      <label for="name">Price</label>
+      <input
+        type="text"
+        class="form-control"
+        required
+        [(ngModel)]="product.price"
+        name="price"
+      />
+    </div>
+    <div class="form-group">
+      <label for="name">Quantity</label>
+      <input
+        type="text"
+        class="form-control"
+        required
+        [(ngModel)]="product.quantity"
+        name="quantity"
+      />
+    </div>
+    <div class="btn-paddn">
+      <button type="submit" class="btn-paddn btn-success btn-lg">Update</button>
+    </div>
+  </form>
+</div>

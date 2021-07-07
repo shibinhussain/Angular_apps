@@ -1,0 +1,10 @@
+.paddn {
+  display: block;
+  padding: 1rem 5rem 3rem 2rem;
+}
+.btn-paddn {
+  padding: 0.35em 1.5em;
+  border: 0.1em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  font-weight: 300;
+}

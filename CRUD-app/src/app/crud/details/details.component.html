@@ -1,0 +1,32 @@
+<div class="paddn">
+  <h3>View Details</h3>
+  <form>
+    <div class="form-group">
+      <label for="name">ID</label>
+      <input type="number" class="form-control" readonly [value]="product.id" />
+    </div>
+
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input readonly class="form-control" [value]="product.name" />
+    </div>
+
+    <div class="form-group">
+      <label for="name">Description</label>
+      <input
+        readonly
+        class="form-control"
+        required
+        [value]="product.description"
+      />
+    </div>
+    <div class="form-group">
+      <label for="name">Price</label>
+      <input readonly class="form-control" [value]="product.price" />
+    </div>
+    <div class="form-group">
+      <label for="name">Quantity</label>
+      <input readonly class="form-control" [value]="product.quantity" />
+    </div>
+  </form>
+</div>
