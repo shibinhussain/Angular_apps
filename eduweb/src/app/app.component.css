@@ -8,4 +8,7 @@
 .navbar-light .navbar-nav .nav-link:hover {
   text-decoration: underline;
 }
-
+.disp{
+  font-weight: bold;
+  font-size: 25px;
+}
